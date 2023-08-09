@@ -1,9 +1,2 @@
 #!/bin/bash
-set -o posix
-set > /tmp/vars.txt
-echo "Local variables:"
-cat /tmp/vars.txt | grep -E '^[[:alpha:]_]+=' | grep -v 'BASH_' | sort
-echo "Environment variables:"
-cat /tmp/vars.txt | grep -E '^[[:upper:]_]+=' | sort
-echo "Functions:"
-declare -F | awk '{print $3}'
+set
