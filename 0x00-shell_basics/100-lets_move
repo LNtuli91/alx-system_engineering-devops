@@ -1,3 +1,4 @@
 #!/bin/bash
-mkdir -p /tmp/u
-mv [A-Z]* /tmp/u/
+cd ..
+mkdir -p html_files
+cp -u *.html html_files/
