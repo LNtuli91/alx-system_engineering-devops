@@ -1,2 +1,2 @@
-#!/nin/bash
-chmod +x 1-listit
+#!/bin/bash
+ls
