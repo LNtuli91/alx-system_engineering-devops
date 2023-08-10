@@ -1,3 +1,2 @@
 #!/bin/bash
-tr 'Ac#!/bin/bash
-tr -d 'cC' < input' 'Ze' < input
+tr 'Ac' 'Ze'
